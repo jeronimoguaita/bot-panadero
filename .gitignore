@@ -1,0 +1,16 @@
+# Claves y secretos (NUNCA subir a internet)
+.env
+.streamlit/secrets.toml
+secrets.toml
+
+# Cache de embeddings (se regenera solo)
+emb_cache_*.npy
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
